@@ -6,7 +6,7 @@ export const Projects = () => {
     <Section height={100}>
       <Stack direction={'column'}>
         <Typography variant={'h2'}>
-          Hi! I'm Mazen. 👋
+          Hi! I&#39;m Mazen. 👋
         </Typography>
         <Typography>
           Flavor text - Flavor text - Flavor text - Flavor text - Flavor text - Flavor text - Flavor text - Flavor text

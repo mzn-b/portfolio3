@@ -1,4 +1,4 @@
-import { Box, Stack, Typography } from '@mui/material';
+import { Stack, Typography } from '@mui/material';
 import { HighlightedText } from '@/components/core/HighlightedText';
 import { ContactForm } from '@/components/ContactForm';
 import { Section } from '@/components/core/Section';
@@ -15,7 +15,7 @@ export const Contact = () => {
             Fancy a <HighlightedText>Chat?</HighlightedText>
           </Typography>
           <Typography>
-            Unfortunately I didn't implement a chat window. But I'm always happy to connect via email using the form or any of my socials listed below.
+            Unfortunately I didn&#39;t implement a chat window. But I&#39;m always happy to connect via email using the form or any of my socials listed below.
           </Typography>
           <Typography>
             Looking forward to hearing from you!
