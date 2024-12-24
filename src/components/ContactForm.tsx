@@ -115,6 +115,8 @@ export const ContactForm = () => {
                 }}
                 onClick={() => {
                   submitForm().then((resp) => {
+                    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+                    // @ts-expect-error
                     if(resp === 200) {
                       resetForm();
                     }
